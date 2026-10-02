@@ -11,8 +11,8 @@ public class DemoApplication {
 		ApplicationContext context = SpringApplication.run(DemoApplication.class, args);
 		System.out.println("Hello World!");
 		// The old way
-		Alien obj = new Alien();
-		obj.coding();
+		// Alien obj = new Alien();
+		// obj.coding();
 
 		// New way
 		Alien obj1 = context.getBean(Alien.class);
