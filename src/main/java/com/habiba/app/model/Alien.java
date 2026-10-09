@@ -1,4 +1,4 @@
-package com.habiba.app;
+package com.habiba.app.model;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
