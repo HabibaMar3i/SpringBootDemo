@@ -16,6 +16,7 @@ public class DemoApplication {
 
 		// New way
 		Alien obj1 = context.getBean(Alien.class);
+		System.out.println(obj1.getAge());
 		obj1.coding();
 	}
 
